@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Contacts</title>
+</head>
+
+<body>
+  <h1>My Contact Details</h1>
+  <ul>
+    <li>+91 7297889731</li>
+    <li>amankhann2023@gmail.com</li>
+    <li><a href="https://www.linkedin.com/in/aman-khan-112698207/">LinkedIn</a></li>
+  </ul>
+  <hr>
+  <form action="mailto:amann1131@gmail.com" method="post" enctype="text/plain">
+    <h3>Enter your details:-</h3>
+    <label for="username">Your Name:</label>
+    <input type="text" name="username" id="username" placeholder="username" required><br><br>
+    <label for="email">Your Email:</label>
+    <input type="email" name="email" id="email" placeholder="email" required><br><br>
+
+    <p>Select Your Age:</p>
+    <input type="radio" name="age" value="0-25" id="option-1" required>
+    <label for="option-1">0-25</label><br>
+    <input type="radio" name="age" value="25-50" id="option-2" required>
+    <label for="option-2">25-50</label><br>
+    <input type="radio" name="age" value="50+" id="option-3" required>
+    <label for="option-3">50+</label><br><br>
+
+    <label for="message">Your Message:</label><br>
+    <textarea name="message" rows="10" cols="30" placeholder="Type here..." required></textarea><br><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+
+</html>
